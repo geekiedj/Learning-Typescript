@@ -15,6 +15,6 @@ function abbreviateName(name: string): string {
   return name;
 }
 
-console.log(abbreviateName("Sam Harris")); // Output: "S.H"
-console.log(abbreviateName("patrick feeney")); // Output: "P.F"
-console.log(abbreviateName("John")); // Output: "John" (Not enough words)
+console.log(abbreviateName("Sam Harris"));
+console.log(abbreviateName("patrick feeney"));
+console.log(abbreviateName("John"));
